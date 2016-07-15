@@ -12,6 +12,7 @@
 		7E2BDB8A1D380F9E00955169 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E2BDB881D380F9E00955169 /* LaunchScreen.storyboard */; };
 		7E2BDB951D380F9E00955169 /* fusBooksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2BDB941D380F9E00955169 /* fusBooksTests.swift */; };
 		7E2BDBA01D380F9E00955169 /* fusBooksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2BDB9F1D380F9E00955169 /* fusBooksUITests.swift */; };
+		7E2BDBAF1D3819EC00955169 /* FusBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2BDBAE1D3819EC00955169 /* FusBook.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		7E2BDB9B1D380F9E00955169 /* fusBooksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fusBooksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E2BDB9F1D380F9E00955169 /* fusBooksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fusBooksUITests.swift; sourceTree = "<group>"; };
 		7E2BDBA11D380F9E00955169 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E2BDBAE1D3819EC00955169 /* FusBook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FusBook.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 		7E2BDBAD1D38106600955169 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				7E2BDBAE1D3819EC00955169 /* FusBook.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E2BDB801D380F9E00955169 /* AppDelegate.swift in Sources */,
+				7E2BDBAF1D3819EC00955169 /* FusBook.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
