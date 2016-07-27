@@ -12,14 +12,18 @@ import UIKit
 class FusBook {
     
     let titulo : String?
+    let autores : NSArray
+    let tags : NSArray?
     let imagen : NSURL?
     let pdf    : NSURL?
     let isFavorite : Bool
     
     
-    init(titulo : String?, imagen : NSURL?, pdf : NSURL? , isFavorite : Bool){
+    init(titulo : String?, autores : NSArray, tags : NSArray?, imagen : NSURL?, pdf : NSURL? , isFavorite : Bool){
         
         self.titulo = titulo
+        self.autores = autores
+        self.tags = tags
         self.imagen = imagen
         self.pdf    = pdf
         self.isFavorite = isFavorite
