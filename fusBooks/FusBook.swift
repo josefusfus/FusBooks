@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class FusBook {
+class FusBook : Comparable{
     
     let titulo : String?
     let autores : NSArray
@@ -29,3 +29,29 @@ class FusBook {
         self.isFavorite = isFavorite
     }
 }
+
+extension FusBook{
+    
+    var proxyForComparison : String{
+        
+        get{
+            return "\(titulo)"
+        }
+    }
+}
+    
+func ==(lhs: FusBook, rhs: FusBook) -> Bool {
+
+    guard (lhs !== rhs) else {
+        
+        return true
+        }
+        return lhs.proxyForComparison == rhs.proxyForComparison
+    }
+
+func <(lhs: FusBook, rhs: FusBook) -> Bool{
+    
+    return lhs.proxyForComparison < rhs.proxyForComparison
+}
+
+
