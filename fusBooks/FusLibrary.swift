@@ -8,3 +8,13 @@
 
 import Foundation
 import UIKit
+
+class FusLibrary {
+    
+    var books : [NSArray : FusBook]
+    
+    
+    
+    
+    
+}
